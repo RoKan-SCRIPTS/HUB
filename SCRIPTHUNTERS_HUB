@@ -133,6 +133,34 @@ local Section = Tab:AddSection({
 })
 
 local Tab = Window:MakeTab({
+    Name = "Evade",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Evade scripts by SCRIPTHUNTERS"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Evade Instant Free Revive",
+    Callback = function()
+        getgenv().farm = true -- false/true
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Evade_InstantFreeRevive/refs/heads/main/Evade_InstantFreeRevive"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Evade - Rose Farm [ 2025 ]",
+    Callback = function()
+        getgenv().farm = true -- false/true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Evade_RoseFarm/refs/heads/main/SCRIPTHUNTERS_Evade_RoseFarm"))() 
+  end    
+})
+
+local Tab = Window:MakeTab({
     Name = "Doors",
     Icon = "rbxassetid://1",
     PremiumOnly = false
@@ -221,65 +249,6 @@ enterKey(number)
 })
 
 local Tab = Window:MakeTab({
-    Name = "Math Murder",
-    Icon = "rbxassetid://1",
-    PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-    Name = "Math Murder - Scripts"
-})
-
-local playerName = game.Players.LocalPlayer.Name
-
-Tab:AddButton({
-    Name = "Math Murder - Show Answer",
-    Callback = function()
-        local qT = workspace.Map.Functional.Screen.SurfaceGui.MainFrame.MainGameContainer.MainTxtContainer.QuestionText  
-
-qT:GetPropertyChangedSignal("Text"):Connect(function()
-    local e = qT.Text:gsub("=", "")
-    e = e:gsub("x", "*")
-    
-    local s, r = pcall(function() return loadstring("return " .. e)() end)
-    task.wait()
-    
-    if s and type(r) == "number" then 
-        qT.Text = e:gsub("%*", "x") .. "= " .. r
-    end 
-end)
-  end    
-})
-
-local Tab = Window:MakeTab({
-    Name = "Evade",
-    Icon = "rbxassetid://1",
-    PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-    Name = "Evade scripts by SCRIPTHUNTERS"
-})
-
-local playerName = game.Players.LocalPlayer.Name
-
-Tab:AddButton({
-    Name = "Evade Instant Free Revive",
-    Callback = function()
-        getgenv().farm = true -- false/true
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Evade_InstantFreeRevive/refs/heads/main/Evade_InstantFreeRevive"))()
-  end    
-})
-
-Tab:AddButton({
-    Name = "Evade - Rose Farm [ 2025 ]",
-    Callback = function()
-        getgenv().farm = true -- false/true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Evade_RoseFarm/refs/heads/main/SCRIPTHUNTERS_Evade_RoseFarm"))() 
-  end    
-})
-
-local Tab = Window:MakeTab({
     Name = "Murder Mystery 2",
     Icon = "rbxassetid://1",
     PremiumOnly = false
@@ -309,6 +278,37 @@ Tab:AddButton({
     Name = "Snapsanix",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanixHUB/refs/heads/main/SnapSanixHUB.lua'))() 
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Math Murder",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Math Murder - Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Math Murder - Show Answer",
+    Callback = function()
+        local qT = workspace.Map.Functional.Screen.SurfaceGui.MainFrame.MainGameContainer.MainTxtContainer.QuestionText  
+
+qT:GetPropertyChangedSignal("Text"):Connect(function()
+    local e = qT.Text:gsub("=", "")
+    e = e:gsub("x", "*")
+    
+    local s, r = pcall(function() return loadstring("return " .. e)() end)
+    task.wait()
+    
+    if s and type(r) == "number" then 
+        qT.Text = e:gsub("%*", "x") .. "= " .. r
+    end 
+end)
   end    
 })
 
