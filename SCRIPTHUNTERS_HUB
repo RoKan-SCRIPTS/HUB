@@ -185,6 +185,37 @@ enterKey(number)
 })
 
 local Tab = Window:MakeTab({
+    Name = "Math Murder",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Math Murder - Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Math Murder - Show Answer",
+    Callback = function()
+        local qT = workspace.Map.Functional.Screen.SurfaceGui.MainFrame.MainGameContainer.MainTxtContainer.QuestionText  
+
+qT:GetPropertyChangedSignal("Text"):Connect(function()
+    local e = qT.Text:gsub("=", "")
+    e = e:gsub("x", "*")
+    
+    local s, r = pcall(function() return loadstring("return " .. e)() end)
+    task.wait()
+    
+    if s and type(r) == "number" then 
+        qT.Text = e:gsub("%*", "x") .. "= " .. r
+    end 
+end)
+  end    
+})
+
+local Tab = Window:MakeTab({
     Name = "Evade",
     Icon = "rbxassetid://1",
     PremiumOnly = false
