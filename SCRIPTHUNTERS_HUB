@@ -21,6 +21,10 @@ local Section = Tab:AddSection({
     Name = "This script made by RoKanchik_YT"
 })
 
+local Section = Tab:AddSection({
+    Name = "Official Telegram channel - @Roblox_ScriptHunters"
+})
+
 local Tab = Window:MakeTab({
     Name = "UNIVERSAL",
     Icon = "rbxassetid://1",
