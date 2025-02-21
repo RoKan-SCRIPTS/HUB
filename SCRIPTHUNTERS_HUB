@@ -1,0 +1,427 @@
+-- Made by RoKanchik_YT
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
+
+
+local Window = OrionLib:MakeWindow({
+    Name = "SCRIPTHUNTERS HUB",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "SCRIPTHUNTERS HUB"
+})
+
+print("Successfully executed.") -- Just a debug
+
+local Tab = Window:MakeTab({
+    Name = "Info",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "This script made by RoKanchik_YT"
+})
+
+local Tab = Window:MakeTab({
+    Name = "UNIVERSAL",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "UNIVERSAL SCRIPTS"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Infinite Yield",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Eazvy Hub - UNIVERSAL Animation Emotes",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/public-scripts/main/Universal_Animations_Emotes.lua"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Loop Instant Proxmity Prompts - UNIVERSAL",
+    Callback = function()
+        while true do
+wait(0)
+for i,v in ipairs(game:GetService("Workspace"):GetDescendants()) do
+ if v.ClassName == "ProximityPrompt" then
+  v.HoldDuration = 0
+ end
+end
+end
+  end    
+})
+
+Tab:AddButton({
+    Name = "feFlip - UNIVERSAL",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Flip_SCRIPTHUNTERS_Script/refs/heads/main/feFlip_SCRIPTHUNTERS"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Universal R6 — SCP-096",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/YsJgITXR/raw"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Universal AIMBOT",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Aim_RobloxScript/refs/heads/main/UNIVERSAL_AIM"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "———",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "It's just for decoration, skip this tab."
+})
+
+local Tab = Window:MakeTab({
+    Name = "Doors",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Doors - Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Doors - Black King",
+    Callback = function()
+        getgenv().farm = true -- false/true
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Doors but math",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Doors but math - Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Doors but math - Script",
+    Callback = function()
+        local number = "000" -- stage number
+
+
+function enterKey(rm)
+local level = game.Workspace["Room"..rm]
+local levelKP = level.CodeDoor.KeyPad
+local inptd = levelKP.Input.SurfaceGui.TextLabel
+local ans = level.CodeDoor.Code.Value
+
+    local function returnCD(name)
+    print(name)
+    if tonumber(name) ~= nil then
+         return levelKP["B"..name].ClickDetector
+    end
+    if name == "-" then
+          return levelKP.Minus.ClickDetector     
+    end
+    return levelKP[name].ClickDetector      
+    end
+
+    fireclickdetector(returnCD("Clear"))
+    wait(0.000001)
+    fireclickdetector(returnCD("Clear"))
+    wait(0.000401)
+    fireclickdetector(returnCD("Clear"))
+    wait(0.000301)
+    fireclickdetector(returnCD("Clear"))
+    wait(0.000201)
+    fireclickdetector(returnCD("Clear"))
+    wait(0.000101)
+
+    t={}
+    ans=tostring(ans)
+    ans:gsub(".",function(c) table.insert(t,c) end)
+
+        for i,v in pairs(t) do 
+            fireclickdetector(returnCD(v))
+            wait(0.0000401)
+        end
+      wait(0.19)
+
+      if inptd.Text == ans then
+      fireclickdetector(returnCD("Enter"))    
+      else
+      wait(0.000353)
+      enterKey(number)
+      end
+end  
+
+enterKey(number)
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Evade",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Evade scripts by SCRIPTHUNTERS"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Evade Instant Free Revive",
+    Callback = function()
+        getgenv().farm = true -- false/true
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Evade_InstantFreeRevive/refs/heads/main/Evade_InstantFreeRevive"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Evade - Rose Farm [ 2025 ]",
+    Callback = function()
+        getgenv().farm = true -- false/true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Evade_RoseFarm/refs/heads/main/SCRIPTHUNTERS_Evade_RoseFarm"))() 
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Murder Mystery 2",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Murder Mystery 2 - Best Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "YARHM",
+    Callback = function()
+        loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-YARHM-12403"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Vertex",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring"))() 
+  end    
+})
+
+Tab:AddButton({
+    Name = "Snapsanix",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanixHUB/refs/heads/main/SnapSanixHUB.lua'))() 
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Brookhaven RP",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Brookhaven RP - Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "R4D",
+    Callback = function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script")()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Be NPC or DIE",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Be NPC or DIE - Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "ESP",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/be_NPC_or_DIE/refs/heads/main/ESP"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Fling Things and People",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Fling Things and People - Best Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "VHS",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/fgdergewrgegr/ftap/refs/heads/main/VHS%20VF"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Shrimp Game",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Shrimp Game - Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Shrimp Game Script",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/vxQVYwhA"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Rob the Place",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Rob the Place - Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Rob the Place - Script",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/dqvh/dqvh/main/robtheplace.lua"))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Loop Instant Proximity Prompt",
+    Callback = function()
+        while true do
+wait(0)
+for i,v in ipairs(game:GetService("Workspace"):GetDescendants()) do
+ if v.ClassName == "ProximityPrompt" then
+  v.HoldDuration = 0
+ end
+end
+end
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "GRACE",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Grace - Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Grace - Script",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/NEOXHUBMAIN/refs/heads/main/Grace"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "DIG IT",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "DIG IT - Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "DIG IT - Script",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/alyssagithub/Scripts/refs/heads/main/FrostByte/Initiate.lua"))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "TAXI BOSS",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "TAXI BOSS - Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "TAXI BOSS - Script",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/Taxi%20Boss", true))()
+  end    
+})
+
+local Tab = Window:MakeTab({
+    Name = "Blade Ball",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Blade Ball - Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Plutonium - Blade Ball Script",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
+  end    
+})
