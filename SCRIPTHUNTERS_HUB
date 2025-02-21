@@ -22,7 +22,7 @@ local Section = Tab:AddSection({
 })
 
 local Section = Tab:AddSection({
-    Name = "Official Telegram channel - @Roblox_ScriptHunters"
+    Name = "Official Telegram Channel - @Roblox_ScriptHunters"
 })
 
 local Tab = Window:MakeTab({
