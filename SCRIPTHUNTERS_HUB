@@ -5,6 +5,7 @@ local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))
 local Window = OrionLib:MakeWindow({
     Name = "SCRIPTHUNTERS HUB",
     HidePremium = false,
+    IntroText = "SCRIPTHUNTERS HUB",
     SaveConfig = true,
     ConfigFolder = "SCRIPTHUNTERS HUB"
 })
