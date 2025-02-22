@@ -6,6 +6,7 @@ local Window = OrionLib:MakeWindow({
     Name = "SCRIPTHUNTERS HUB",
     HidePremium = false,
     IntroText = "SCRIPTHUNTERS HUB",
+    IntroIcon = "rbxassetid://121384326849276",
     SaveConfig = true,
     ConfigFolder = "SCRIPTHUNTERS HUB"
 })
