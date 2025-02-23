@@ -131,6 +131,13 @@ Tab:AddButton({
   end    
 })
 
+Tab:AddButton({
+    Name = "42 Car - VISUAL",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/B2r0xp5B",true))()
+  end    
+})
+
 local Tab = Window:MakeTab({
     Name = "———",
     Icon = "rbxassetid://1",
