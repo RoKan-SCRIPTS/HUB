@@ -506,4 +506,36 @@ Tab:AddButton({
   end    
 })
 
+local Tab = Window:MakeTab({
+    Name = "Granny",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Granny - Multiplayer"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "QWIX HUB",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Granny_Multiplayer/refs/heads/main/Granny_Multiplayer"))()
+  end    
+})
+
+local Section = Tab:AddSection({
+    Name = "Granny"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Granny - Script",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/N4ZB5QMe"))()
+  end    
+})
+
 OrionLib:Init()
