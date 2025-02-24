@@ -545,31 +545,4 @@ Tab:AddButton({
   end    
 })
 
-local Tab = Window:MakeTab({
-    Name = "Natural Disaster Survival",
-    Icon = "rbxassetid://1",
-    PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-    Name = "Natural Disaster Survival - Functions"
-})
-
-local playerName = game.Players.LocalPlayer.Name
-
-Tab:AddToggle({
-	Name = "Autofarm Wins",
-	Default = false,
-	Callback = function(Value)
-		    _G.autowinfarm = bool;
-    while wait(.1) do
-        if _G.autowinfarm == true and  game.Players.LocalPlayer.Character and  game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-236, 180, 360, 1, 0, 0, 0, 1, 0, 0, 0, 1)
-        end
-end
-end)
-	end    
-})
-
-
 OrionLib:Init()
