@@ -564,4 +564,23 @@ Tab:AddButton({
   end    
 })
 
+local Tab = Window:MakeTab({
+    Name = "nico's nextbots",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "nico's nextbots - Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Bunny Hop",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/nicos-nextbots_bunny-hop/refs/heads/main/nicos-nextbots_bunny-hop"))()
+  end    
+})
+
 OrionLib:Init()
