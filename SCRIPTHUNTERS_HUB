@@ -546,25 +546,6 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
-    Name = "Natural Disaster Survival",
-    Icon = "rbxassetid://1",
-    PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-    Name = "Natural Disaster Survival - Scripts"
-})
-
-local playerName = game.Players.LocalPlayer.Name
-
-Tab:AddButton({
-    Name = "NDS GUI",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
-  end    
-})
-
-local Tab = Window:MakeTab({
     Name = "nico's nextbots",
     Icon = "rbxassetid://1",
     PremiumOnly = false
