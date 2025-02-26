@@ -558,7 +558,7 @@ local Section = Tab:AddSection({
 local playerName = game.Players.LocalPlayer.Name
 
 Tab:AddButton({
-    Name = "HDS HUB",
+    Name = "NDS GUI",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8"))()
   end    
