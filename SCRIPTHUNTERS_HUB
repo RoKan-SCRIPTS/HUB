@@ -1,11 +1,5 @@
 -- Made by RoKanchik_YT
 
-local notifSound = Instance.new("Sound",workspace)
-notifSound.PlaybackSpeed = 0
-notifSound.Volume = 0
-notifSound.SoundId = "rbxassetid://0"
-notifSound.PlayOnRemove = false
-notifSound:Destroy()
 game.StarterGui:SetCore("SendNotification", {Title = "Badge Awarded", Text = "You won SCRIPTHUNTERS HUB's award!", Icon = "rbxassetid://134502390793863", Duration = 5})
 
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
