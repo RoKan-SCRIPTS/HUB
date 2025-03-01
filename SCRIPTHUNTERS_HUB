@@ -95,14 +95,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Loop Instant Proxmity Prompts - UNIVERSAL",
     Callback = function()
-        while true do
-wait(0)
-for i,v in ipairs(game:GetService("Workspace"):GetDescendants()) do
- if v.ClassName == "ProximityPrompt" then
-  v.HoldDuration = 0
- end
-end
-end
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Loop_InstantProximityPrompt/refs/heads/main/Made_by_RoKanchik_YT_Loop_Instant_PP"))()
   end    
 })
 
@@ -429,14 +422,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Loop Instant Proximity Prompt",
     Callback = function()
-        while true do
-wait(0)
-for i,v in ipairs(game:GetService("Workspace"):GetDescendants()) do
- if v.ClassName == "ProximityPrompt" then
-  v.HoldDuration = 0
- end
-end
-end
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Loop_InstantProximityPrompt/refs/heads/main/Made_by_RoKanchik_YT_Loop_Instant_PP"))()
   end    
 })
 
