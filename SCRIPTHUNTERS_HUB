@@ -23,7 +23,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-    Name = "This script made by RoKanchik_YT"
+    Name = "This script made by RoKanchik_YT "
 })
 
 local Section = Tab:AddSection({
