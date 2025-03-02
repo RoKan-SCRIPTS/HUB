@@ -531,4 +531,23 @@ Tab:AddButton({
   end    
 })
 
+local Tab = Window:MakeTab({
+    Name = "Throw stuff for money",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Throw stuff for money - Script"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Throw stuff for money - Script",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/Throwstuff"))()
+  end    
+})
+
 OrionLib:Init()
