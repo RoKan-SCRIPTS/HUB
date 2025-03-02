@@ -31,42 +31,6 @@ local Section = Tab:AddSection({
 })
 
 local Tab = Window:MakeTab({
-    Name = "Player",
-    Icon = "rbxassetid://1",
-    PremiumOnly = false
-})
-
-local Section = Tab:AddSection({
-    Name = "Change your Player Movement"
-})
-
-Tab:AddSlider({
-	Name = "WalkSpeed",
-	Min = 16,
-	Max = 500,
-	Default = 5,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 1,
-	ValueName = "WS",
-	Callback = function(Value)
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
-	end    
-})
-
-Tab:AddSlider({
-	Name = "JumpPower",
-	Min = 50,
-	Max = 500,
-	Default = 5,
-	Color = Color3.fromRGB(255,255,255),
-	Increment = 1,
-	ValueName = "JP",
-	Callback = function(Value)
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
-	end    
-})
-
-local Tab = Window:MakeTab({
     Name = "UNIVERSAL",
     Icon = "rbxassetid://1",
     PremiumOnly = false
