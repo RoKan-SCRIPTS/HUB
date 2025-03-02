@@ -98,6 +98,13 @@ Tab:AddButton({
   end    
 })
 
+Tab:AddButton({
+    Name = "Ctrl + Click TP",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/CtrlClickTP/refs/heads/main/Ctrl-Click-TP",true))()
+  end    
+})
+
 local Tab = Window:MakeTab({
     Name = "———",
     Icon = "rbxassetid://1",
