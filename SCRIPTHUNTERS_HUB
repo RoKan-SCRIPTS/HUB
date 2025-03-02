@@ -64,9 +64,16 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Ctrl + Click TP",
+    Name = "Enable - Ctrl + Click TP",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/CtrlClickTP/refs/heads/main/Ctrl-Click-TP",true))()
+  end    
+})
+
+Tab:AddButton({
+    Name = "Disabke - Ctrl + Click TP",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/CtrlClickTP/refs/heads/main/Ctrl-Click-TP",false))()
   end    
 })
 
