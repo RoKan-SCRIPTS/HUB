@@ -64,6 +64,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "Ctrl + Click TP",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/CtrlClickTP/refs/heads/main/Ctrl-Click-TP",true))()
+  end    
+})
+
+Tab:AddButton({
     Name = "feFlip - UNIVERSAL",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Flip_SCRIPTHUNTERS_Script/refs/heads/main/feFlip_SCRIPTHUNTERS"))()
@@ -95,13 +102,6 @@ Tab:AddButton({
     Name = "42 Car - VISUAL",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/42_CAR/refs/heads/main/42_CAR_VISUAL",true))()
-  end    
-})
-
-Tab:AddButton({
-    Name = "Ctrl + Click TP",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/CtrlClickTP/refs/heads/main/Ctrl-Click-TP",true))()
   end    
 })
 
