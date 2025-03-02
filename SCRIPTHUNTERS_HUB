@@ -6,7 +6,7 @@ local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))
 
 
 local Window = OrionLib:MakeWindow({
-    Name = "SCRIPTHUNTERS HUB",
+    Name = "SCRIPTHUNTERS HUB ",
     HidePremium = false,
     IntroText = "SCRIPTHUNTERS HUB",
     IntroIcon = "rbxassetid://121384326849276",
