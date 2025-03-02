@@ -71,16 +71,16 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "feFlip - UNIVERSAL",
+    Name = "Invisible - Button",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Flip_SCRIPTHUNTERS_Script/refs/heads/main/feFlip_SCRIPTHUNTERS"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Universal_Invisible/refs/heads/main/INVISIBLE"))()
   end    
 })
 
 Tab:AddButton({
-    Name = "Invisible - Button",
+    Name = "feFlip - UNIVERSAL",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Universal_Invisible/refs/heads/main/INVISIBLE"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Flip_SCRIPTHUNTERS_Script/refs/heads/main/feFlip_SCRIPTHUNTERS"))()
   end    
 })
 
