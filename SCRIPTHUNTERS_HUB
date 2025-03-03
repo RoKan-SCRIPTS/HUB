@@ -589,6 +589,13 @@ local Section = Tab:AddSection({
 local playerName = game.Players.LocalPlayer.Name
 
 Tab:AddButton({
+    Name = "Exolution Premium Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ExolutionProject/Scripts/main/ExolutionPremiumHub.lua", false))()
+  end    
+})
+
+Tab:AddButton({
     Name = "Animations",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Mautiku/ehh/main/strong%20guest.lua.txt'))()
