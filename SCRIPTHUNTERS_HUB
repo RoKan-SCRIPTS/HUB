@@ -564,7 +564,7 @@ local Section = Tab:AddSection({
 local playerName = game.Players.LocalPlayer.Name
 
 Tab:AddButton({
-    Name = "KJ - Anims",
+    Name = "Animations",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/Mautiku/ehh/main/strong%20guest.lua.txt'))()
   end    
