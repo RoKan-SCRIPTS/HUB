@@ -520,6 +520,25 @@ Tab:AddButton({
 })
 
 local Tab = Window:MakeTab({
+    Name = "Natural Disaster Survival",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Natural Disaster Survival - Scripts"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Exolution Premium Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ExolutionProject/Scripts/main/ExolutionPremiumHub.lua", false))()
+  end    
+})
+
+local Tab = Window:MakeTab({
     Name = "nico's nextbots",
     Icon = "rbxassetid://1",
     PremiumOnly = false
