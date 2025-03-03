@@ -100,6 +100,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "KJ - Anim",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ahma174/Tool/refs/heads/main/Unlimited%20Flex%20Works"))()
+  end    
+})
+
+Tab:AddButton({
     Name = "Fake Chat Verified Badge V2",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/qJwH9964"))();
