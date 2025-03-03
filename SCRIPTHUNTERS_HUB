@@ -1,4 +1,5 @@
 -- Made by RoKanchik_YT
+print("SCRIPTHUNTERS HUB - Made by RoKanchik_YT")
 
 game.StarterGui:SetCore("SendNotification", {Title = "Badge Awarded", Text = "You won SCRIPTHUNTERS HUB's award!", Icon = "rbxassetid://82713058181439", Duration = 5})
 
