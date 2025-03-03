@@ -57,6 +57,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "feFlip - UNIVERSAL",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Flip_SCRIPTHUNTERS_Script/refs/heads/main/feFlip_SCRIPTHUNTERS"))()
+  end    
+})
+
+Tab:AddButton({
     Name = "Loop Instant Proxmity Prompts - UNIVERSAL",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Loop_InstantProximityPrompt/refs/heads/main/Made_by_RoKanchik_YT_Loop_Instant_PP"))()
@@ -74,13 +81,6 @@ Tab:AddButton({
     Name = "Invisible - Button",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Universal_Invisible/refs/heads/main/INVISIBLE"))()
-  end    
-})
-
-Tab:AddButton({
-    Name = "feFlip - UNIVERSAL",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Flip_SCRIPTHUNTERS_Script/refs/heads/main/feFlip_SCRIPTHUNTERS"))()
   end    
 })
 
