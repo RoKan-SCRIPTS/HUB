@@ -57,6 +57,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "GHOST HUB",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+  end    
+})
+
+Tab:AddButton({
     Name = "feFlip - UNIVERSAL",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Flip_SCRIPTHUNTERS_Script/refs/heads/main/feFlip_SCRIPTHUNTERS"))()
