@@ -78,6 +78,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+    Name = "Reverse Time",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/ReverseTime/refs/heads/main/REVERSE"))()
+  end    
+})
+
+Tab:AddButton({
     Name = "feFlip - UNIVERSAL",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Flip_SCRIPTHUNTERS_Script/refs/heads/main/feFlip_SCRIPTHUNTERS"))()
