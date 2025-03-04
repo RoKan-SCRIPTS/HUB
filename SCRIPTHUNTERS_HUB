@@ -126,6 +126,13 @@ Tab:AddButton({
   end    
 })
 
+Tab:AddButton({
+    Name = "HUG - R15 & R6 [ Press H ]",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JSFKGBASDJKHIOAFHDGHIUODSGBJKLFGDKSB/fe/refs/heads/main/FEHUGG"))()
+  end    
+})
+
 local Tab = Window:MakeTab({
     Name = "———",
     Icon = "rbxassetid://1",
