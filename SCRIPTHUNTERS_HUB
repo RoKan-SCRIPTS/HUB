@@ -15,6 +15,7 @@ local Window = OrionLib:MakeWindow({
 })
 
 print("SCRIPTHUNTERS HUB  — Successfully executed.") -- Just a debug
+print("Made by RoKanchik_YT") -- Just a debug
 
 local Tab = Window:MakeTab({
     Name = "Info",
