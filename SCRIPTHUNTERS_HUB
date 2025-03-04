@@ -628,4 +628,11 @@ Tab:AddButton({
   end    
 })
 
+Tab:AddButton({
+    Name = "AUTO MEGA FAST TYPING [ Use an ALT Account!!! ]",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SCRIPTHUNTERS/TypeRace_MEGA_FAST_TYPING/refs/heads/main/MEGA_FAST_TYPING'))()
+  end    
+})
+
 OrionLib:Init()
