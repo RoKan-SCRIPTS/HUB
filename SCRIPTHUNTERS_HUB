@@ -609,4 +609,23 @@ Tab:AddButton({
   end    
 })
 
+local Tab = Window:MakeTab({
+    Name = "Type Race",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "Type Race - Script"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Auto Fast Typing [ 100% Accurate ]",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/SCRIPTHUNTERS/TypeRaceAutoTyping/refs/heads/main/AutoType_FAST'))()
+  end    
+})
+
 OrionLib:Init()
