@@ -323,6 +323,13 @@ end)
   end    
 })
 
+Tab:AddButton({
+    Name = "Math Murder Auto Answer",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/MathMurder_AutoAnswer/refs/heads/main/MathMurder_AutoAnswer"))()
+  end    
+})
+
 local Tab = Window:MakeTab({
     Name = "Brookhaven RP",
     Icon = "rbxassetid://1",
