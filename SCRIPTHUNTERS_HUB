@@ -2,7 +2,7 @@
 
 game.StarterGui:SetCore("SendNotification", {Title = "Badge Awarded", Text = "You won SCRIPTHUNTERS HUB's award!", Icon = "rbxassetid://82713058181439", Duration = 5})
 
-local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CoolManYesYes/OrionLib/refs/heads/main/source.txt')))()
 
 
 local Window = OrionLib:MakeWindow({
