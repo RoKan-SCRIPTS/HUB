@@ -1,20 +1,20 @@
 -- Made by RoKanchik_YT
 
-game.StarterGui:SetCore("SendNotification", {Title = "Badge Awarded", Text = "You won SCRIPTHUNTERS HUB's award!", Icon = "rbxassetid://82713058181439", Duration = 5})
+game.StarterGui:SetCore("SendNotification", {Title = "Badge Awarded", Text = "You won RoKan_SCRIPTS [ HUB ]'s award!", Icon = "rbxassetid://82713058181439", Duration = 5})
 
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/CoolManYesYes/OrionLib/refs/heads/main/source.txt')))()
+local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
 
 
 local Window = OrionLib:MakeWindow({
-    Name = "SCRIPTHUNTERS HUB ",
+    Name = "RoKan_SCRIPTS [ HUB ] ",
     HidePremium = false,
-    IntroText = "SCRIPTHUNTERS HUB",
+    IntroText = "RoKan_SCRIPTS",
     IntroIcon = "rbxassetid://121384326849276",
     SaveConfig = true,
-    ConfigFolder = "SCRIPTHUNTERS HUB"
+    ConfigFolder = "RoKan_SCRIPTS [ HUB ]"
 })
 
-print("SCRIPTHUNTERS HUB  — Successfully executed.") -- Just a debug
+print("RoKan_SCRIPTS [ HUB ]  — Successfully executed.") -- Just a debug
 
 local Tab = Window:MakeTab({
     Name = "Info",
@@ -27,7 +27,7 @@ local Section = Tab:AddSection({
 })
 
 local Section = Tab:AddSection({
-    Name = "Official Telegram Channel - @Roblox_ScriptHunters"
+    Name = "Official Telegram Channel - @RoKan_SCRIPTS"
 })
 
 local Tab = Window:MakeTab({
@@ -66,35 +66,35 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "feFlip - UNIVERSAL",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Flip_SCRIPTHUNTERS_Script/refs/heads/main/feFlip_SCRIPTHUNTERS"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Flip_SCRIPTHUNTERS_Script/refs/heads/main/feFlip_SCRIPTHUNTERS"))()
   end    
 })
 
 Tab:AddButton({
     Name = "Loop Instant Proximity Prompts - UNIVERSAL",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Loop_InstantProximityPrompt/refs/heads/main/Made_by_RoKanchik_YT_Loop_Instant_PP"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Loop_InstantProximityPrompt/refs/heads/main/Made_by_RoKanchik_YT_Loop_Instant_PP"))()
   end    
 })
 
 Tab:AddButton({
     Name = "Ctrl + Click TP",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/CtrlClickTP/refs/heads/main/Ctrl-Click-TP",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/CtrlClickTP/refs/heads/main/Ctrl-Click-TP",true))()
   end    
 })
 
 Tab:AddButton({
     Name = "Invisible - Button",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Universal_Invisible/refs/heads/main/INVISIBLE"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Universal_Invisible/refs/heads/main/INVISIBLE"))()
   end    
 })
 
 Tab:AddButton({
     Name = "Reverse Time",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/ReverseTime/refs/heads/main/REVERSE"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/ReverseTime/refs/heads/main/REVERSE"))()
   end    
 })
 
@@ -108,7 +108,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Universal AIMBOT",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Aim_RobloxScript/refs/heads/main/UNIVERSAL_AIM"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Aim_RobloxScript/refs/heads/main/UNIVERSAL_AIM"))()
   end    
 })
 
@@ -122,7 +122,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "42 Car - VISUAL",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/42_CAR/refs/heads/main/42_CAR_VISUAL",true))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/42_CAR/refs/heads/main/42_CAR_VISUAL",true))()
   end    
 })
 
@@ -150,7 +150,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-    Name = "Evade scripts by SCRIPTHUNTERS"
+    Name = "Evade scripts by RoKanchik_YT"
 })
 
 local playerName = game.Players.LocalPlayer.Name
@@ -159,15 +159,7 @@ Tab:AddButton({
     Name = "Evade Instant Free Revive",
     Callback = function()
         getgenv().farm = true -- false/true
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Evade_InstantFreeRevive/refs/heads/main/Evade_InstantFreeRevive"))()
-  end    
-})
-
-Tab:AddButton({
-    Name = "Evade - Rose Farm [ 2025 ]",
-    Callback = function()
-        getgenv().farm = true -- false/true
-loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Evade_RoseFarm/refs/heads/main/SCRIPTHUNTERS_Evade_RoseFarm"))() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Evade_InstantFreeRevive/refs/heads/main/Evade_InstantFreeRevive"))()
   end    
 })
 
@@ -326,7 +318,7 @@ end)
 Tab:AddButton({
     Name = "Math Murder - Auto Answer",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/MathMurder_AutoAnswer/refs/heads/main/MathMurder_AutoAnswer"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/MathMurder_AutoAnswer/refs/heads/main/MathMurder_AutoAnswer"))()
   end    
 })
 
@@ -364,7 +356,7 @@ local playerName = game.Players.LocalPlayer.Name
 Tab:AddButton({
     Name = "ESP",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/be_NPC_or_DIE/refs/heads/main/ESP"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/be_NPC_or_DIE/refs/heads/main/ESP"))()
   end    
 })
 
@@ -428,7 +420,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Loop Instant Proximity Prompts - UNIVERSAL",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Loop_InstantProximityPrompt/refs/heads/main/Made_by_RoKanchik_YT_Loop_Instant_PP"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Loop_InstantProximityPrompt/refs/heads/main/Made_by_RoKanchik_YT_Loop_Instant_PP"))()
   end    
 })
 
@@ -574,7 +566,7 @@ local playerName = game.Players.LocalPlayer.Name
 Tab:AddButton({
     Name = "Bunny Hop",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/nicos-nextbots_bunny-hop/refs/heads/main/nicos-nextbots_bunny-hop"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/nicos-nextbots_bunny-hop/refs/heads/main/nicos-nextbots_bunny-hop"))()
   end    
 })
 
@@ -638,14 +630,14 @@ local playerName = game.Players.LocalPlayer.Name
 Tab:AddButton({
     Name = "Auto Fast Typing [ 100% Accurate ]",
     Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/SCRIPTHUNTERS/TypeRaceAutoTyping/refs/heads/main/AutoType_FAST'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RoKan-SCRIPTS/TypeRaceAutoTyping/refs/heads/main/AutoType_FAST'))()
   end    
 })
 
 Tab:AddButton({
     Name = "AUTO MEGA FAST TYPING [ Use an ALT Account!!! ]",
     Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/SCRIPTHUNTERS/TypeRace_MEGA_FAST_TYPING/refs/heads/main/MEGA_FAST_TYPING'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/RoKan-SCRIPTS/TypeRace_MEGA_FAST_TYPING/refs/heads/main/MEGA_FAST_TYPING'))()
   end    
 })
 
