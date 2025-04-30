@@ -2,7 +2,7 @@
 
 game.StarterGui:SetCore("SendNotification", {Title = "Badge Awarded", Text = "You won RoKan_SCRIPTS [ HUB ]'s award!", Icon = "rbxassetid://82713058181439", Duration = 5})
 
-local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/WRUyYTdY')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 
 
 local Window = OrionLib:MakeWindow({
