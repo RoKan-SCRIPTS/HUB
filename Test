@@ -6,14 +6,95 @@ library:Introduction()
 wait(1)
 local Init = library:Init()
 
+-- Tabs
+
 local Tab1 = Init:NewTab("Info")
+
+local Tab2 = Init:NewTab("UNIVERSAL")
+
+local Tab3 = Init:NewTab("———")
+
+local Tab4 = Init:NewTab("Evade")
+
+local Tab5 = Init:NewTab("Doors")
+
+local Tab6 = Init:NewTab("Doors but math")
+
+local Tab7 = Init:NewTab("Murder Mystery 2")
+
+local Tab8 = Init:NewTab("Math Murder")
+
+local Tab9 = Init:NewTab("Brookhaven RP")
+
+local Tab10 = Init:NewTab("Be NPC or DIE")
+
+local Tab11 = Init:NewTab("Fling Things and People")
+
+local Tab12 = Init:NewTab("Shrimp Game")
+
+local Tab13 = Init:NewTab("Rob the Place")
+
+local Tab14 = Init:NewTab("Blade Ball")
+
+local Tab15 = Init:NewTab("Granny")
+
+local Tab16 = Init:NewTab("Natural Disaster Survival")
+
+local Tab17 = Init:NewTab("nico's nextbots")
+
+local Tab18 = Init:NewTab("Throw stuff for money")
+
+local Tab19 = Init:NewTab("The Strongest Battlegrounds")
+
+local Tab20 = Init:NewTab("Type Race")
+
+-- Sections
 
 local Section1 = Tab1:NewSection("This script made by RoKanchik_YT")
 local Section2 = Tab1:NewSection("Official Telegram Channel - @RoKan_SCRIPTS")
 
-local Tab2 = Init:NewTab("UNIVERSAL")
 
 local Section1 = Tab2:NewSection("UNIVERSAL SCRIPTS")
+
+local Section1 = Tab3:NewSection("It's just for decoration, skip this tab."
+
+local Section1 = Tab4:NewSection("Evade scripts by RoKanchik_YT"
+
+local Section1 = Tab5:NewSection("Doors - Scripts"
+
+local Section1 = Tab6:NewSection("Doors but math - Scripts"
+
+local Section1 = Tab7:NewSection("Murder Mystery 2 - Best Scripts"
+
+local Section1 = Tab8:NewSection("Math Murder - Scripts"
+
+local Section1 = Tab9:NewSection("Brookhaven RP - Scripts"
+
+local Section1 = Tab10:NewSection("Be NPC or DIE - Scripts"
+
+local Section1 = Tab11:NewSection("Fling Things and People - Best Script"
+
+local Section1 = Tab12:NewSection("Shrimp Game - Script"
+
+local Section1 = Tab13:NewSection("Rob the Place - Scripts"
+
+local Section1 = Tab14:NewSection("Blade Ball - Script"
+
+local Section1 = Tab14:NewSection("Granny - Multiplayer"
+
+local Section1 = Tab15:NewSection("Granny"
+
+local Section1 = Tab16:NewSection("Natural Disaster Survival - Script"
+
+local Section1 = Tab17:NewSection("nico's nextbots - Script"
+
+local Section1 = Tab18:NewSection("Throw stuff for money - Script"
+
+local Section1 = Tab19:NewSection("The Strongest Battlegrounds - Scripts"
+
+local Section1 = Tab20NewSection("Type Race - Script"
+
+-- Buttons
 
 local Button1 = Tab2:NewButton("Infiniy Yield ", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
@@ -63,6 +144,7 @@ local Button12 = Tab2:NewButton("HUG - R15 & R6 [ Press H ]", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JSFKGBASDJKHIOAFHDGHIUODSGBJKLFGDKSB/fe/refs/heads/main/FEHUGG"))()
 end)
 
-local Tab3 = Init:NewTab("———")
-
-local Section1 = Tab3:NewSection("It's just for decoration, skip this tab.")
+local Button1 = Tab4:NewButton("Evade Instant Free Revive", function()
+    getgenv().farm = true -- false/true
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Evade_InstantFreeRevive/refs/heads/main/Evade_InstantFreeRevive"))()
+end)
