@@ -754,7 +754,7 @@ function library:Introduction()
     xsxLogo.Visible = true
     xsxLogo.Image = "http://www.roblox.com/asset/?id=79255111886352"
     xsxLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
-    xsxLogo.ImageTransparency = 1
+    xsxLogo.ImageTransparency = 0
     
     hashLogo.Name = "hashLogo"
     hashLogo.Parent = background
@@ -766,7 +766,7 @@ function library:Introduction()
     hashLogo.Visible = true
     hashLogo.Image = "http://www.roblox.com/asset/?id=79255111886352"
     hashLogo.ImageColor3 = Color3.fromRGB(159, 115, 255)
-    hashLogo.ImageTransparency = 1
+    hashLogo.ImageTransparency = 0
     
     xsx.Name = "RoKan_SCRIPTS [ HUB ] "
     xsx.Parent = background
