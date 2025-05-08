@@ -9,11 +9,11 @@ local Init = library:Init()
 local Tab1 = Init:NewTab("Info")
 
 local Section1 = Tab1:NewSection("This script made by RoKanchik_YT")
-local Section1 = Tab1:NewSection("Official Telegram Channel - @RoKan_SCRIPTS")
+local Section2 = Tab1:NewSection("Official Telegram Channel - @RoKan_SCRIPTS")
 
 local Tab2 = Init:NewTab("UNIVERSAL")
 
-local Section2 = Tab2:NewSection("UNIVERSAL SCRIPTS")
+local Section1 = Tab2:NewSection("UNIVERSAL SCRIPTS")
 
 local Button1 = Tab2:NewButton("Infiniy Yield ", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
@@ -22,3 +22,47 @@ end)
 local Button2 = Tab2:NewButton("Eazvy Hub - UNIVERSAL Animation Emotes", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/public-scripts/main/Universal_Animations_Emotes.lua"))()
 end)
+
+local Button3 = Tab2:NewButton("feFlip - UNIVERSAL", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Flip_SCRIPTHUNTERS_Script/refs/heads/main/feFlip_SCRIPTHUNTERS"))()
+end)
+
+local Button4 = Tab2:NewButton("Loop Instant Proximity Prompts - UNIVERSAL", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Loop_InstantProximityPrompt/refs/heads/main/Made_by_RoKanchik_YT_Loop_Instant_PP"))()
+end)
+
+local Button5 = Tab2:NewButton("Ctrl + Click TP", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/CtrlClickTP/refs/heads/main/Ctrl-Click-TP",true))()
+end)
+
+local Button6 = Tab2:NewButton("Invisible - Button", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Universal_Invisible/refs/heads/main/INVISIBLE"))()
+end)
+
+local Button7 = Tab2:NewButton("Reverse Time", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/ReverseTime/refs/heads/main/REVERSE"))()
+end)
+
+local Button8 = Tab2:NewButton("Universal R6 — SCP-096", function()
+    loadstring(game:HttpGet("https://pastefy.app/YsJgITXR/raw"))()
+end)
+
+local Button9 = Tab2:NewButton("Universal AIMBOT", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Aim_RobloxScript/refs/heads/main/UNIVERSAL_AIM"))()
+end)
+
+local Button10 = Tab2:NewButton("Fake Chat Verified Badge V2", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/qJwH9964"))();
+end)
+
+local Button11 = Tab2:NewButton("42 Car - VISUAL", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/42_CAR/refs/heads/main/42_CAR_VISUAL",true))()
+end)
+
+local Button12 = Tab2:NewButton("HUG - R15 & R6 [ Press H ]", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JSFKGBASDJKHIOAFHDGHIUODSGBJKLFGDKSB/fe/refs/heads/main/FEHUGG"))()
+end)
+
+local Tab3 = Init:NewTab("———")
+
+local Section1 = Tab3:NewSection("It's just for decoration, skip this tab.")
