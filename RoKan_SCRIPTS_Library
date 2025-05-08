@@ -763,7 +763,7 @@ function library:Introduction()
     hashLogo.Position = UDim2.new(0.5, 0, 0.5, 0)
     hashLogo.Size = UDim2.new(0, 150, 0, 150)
     hashLogo.Visible = true
-    hashLogo.Image = "http://www.roblox.com/asset/?id=80718053684258"
+    hashLogo.Image = "http://www.roblox.com/asset/?id=9365069861"
     hashLogo.ImageTransparency = 1
     
     xsx.Name = "RoKan_SCRIPTS [ HUB ] "
