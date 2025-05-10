@@ -241,3 +241,23 @@ end)
 local Button2 = Tab19:NewButton("AUTO MEGA FAST TYPING [ Use an ALT Account!!! ]", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/RoKan-SCRIPTS/TypeRace_MEGA_FAST_TYPING/refs/heads/main/MEGA_FAST_TYPING'))()
 end)
+
+local Tab20 = Init:NewTab("Dead Rails")
+
+local Section1 = Tab20:NewSection("Dead Rails - Scripts")
+
+local Button1 = Tab20:NewButton("Dead Rails - KiciaHook V2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.luau"))()
+end)
+
+local Button2 = Tab20:NewButton("Dead Rails - Gumanba", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
+end)
+
+local Button3 = Tab20:NewButton("Dead Rails - Null Fire", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
+end)
+
+local Button4 = Tab20:NewButton("Dead Rails - Weld Object Anywhere", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/hbjrev/airweld.github.io/refs/heads/main/RINGTA.lua'))()
+end)
