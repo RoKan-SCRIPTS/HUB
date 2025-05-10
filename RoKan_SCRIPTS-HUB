@@ -81,7 +81,7 @@ end)
 
 local Tab5 = Init:NewTab("Doors")
 
-local Section1 = Tab5:NewSection("Doors - Scripts"
+local Section1 = Tab5:NewSection("Doors - Scripts")
 
 local Button1 = Tab5:NewButton("Doors - Black King", function()
     getgenv().farm = true -- false/true
