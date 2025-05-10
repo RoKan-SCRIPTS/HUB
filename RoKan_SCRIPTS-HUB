@@ -80,6 +80,14 @@ local Button1 = Tab4:NewButton("Evade Instant Free Revive", function()
 end)
 
 
-local Tab19 = Init:NewTab("The Strongest Battlegrounds")
+local Tab5 = Init:NewTab("The Strongest Battlegrounds")
 
-local Section1 = Tab19:NewSection("The Strongest Battlegrounds - Scripts")
+local Section1 = Tab5:NewSection("The Strongest Battlegrounds - Scripts")
+
+local Button1 = Tab5:NewButton("Exolution Premium Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ExolutionProject/Scripts/main/ExolutionPremiumHub.lua"))()
+end)
+
+local Button2 = Tab5:NewButton("Animations", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Mautiku/ehh/main/strong%20guest.lua.txt'))()
+end)
