@@ -79,15 +79,107 @@ local Button1 = Tab4:NewButton("Evade Instant Free Revive", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Evade_InstantFreeRevive/refs/heads/main/Evade_InstantFreeRevive"))()
 end)
 
+local Tab5 = Init:NewTab("Doors")
 
-local Tab5 = Init:NewTab("The Strongest Battlegrounds")
+local Section1 = Tab5:NewSection("Doors - Scripts"
 
-local Section1 = Tab5:NewSection("The Strongest Battlegrounds - Scripts")
+local Button1 = Tab5:NewButton("Doors - Black King", function()
+    getgenv().farm = true -- false/true
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
+end)
 
-local Button1 = Tab5:NewButton("Exolution Premium Hub", function()
+local Tab6 = Init:NewTab("Murder Mystery 2")
+
+local Section1 = Tab6:NewSection("Murder Mystery 2 - Best Scripts")
+
+local Button1 = Tab6:NewButton("YARHM", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-YARHM-12403"))()
+end)
+
+local Button2 = Tab6:NewButton("Vertex", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring"))()
+end)
+
+local Button3 = Tab6:NewButton("Snapsanix", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Roman34296589/SnapSanixHUB/refs/heads/main/SnapSanixHUB.lua'))()
+end)
+
+local Tab7 = Init:NewTab("Math Murder")
+
+local Section1 = Tab7:NewSection("Math Murder - Scripts")
+
+local Button1 = Tab7:NewButton("Math Murder - Show Answer", function()
+    local qT = workspace.Map.Functional.Screen.SurfaceGui.MainFrame.MainGameContainer.MainTxtContainer.QuestionText  
+
+qT:GetPropertyChangedSignal("Text"):Connect(function()
+    local e = qT.Text:gsub("=", "")
+    e = e:gsub("x", "*")
+    
+    local s, r = pcall(function() return loadstring("return " .. e)() end)
+    task.wait()
+    
+    if s and type(r) == "number" then 
+        qT.Text = e:gsub("%*", "x") .. "= " .. r
+    end 
+end)
+end)
+
+local Button2 = Tab7:NewButton("Math Murder - Auto Answer", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/MathMurder_AutoAnswer/refs/heads/main/MathMurder_AutoAnswer"))()
+end)
+
+local Tab8 = Init:NewTab("Brookhaven RP")
+
+local Section1 = Tab8:NewSection("Brookhaven RP - Scripts")
+
+local Button1 = Tab8:NewButton("R4D", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script")()
+end)
+
+local Tab9 = Init:NewTab("Be NPC or DIE")
+
+local Section1 = Tab9:NewSection("Be NPC or DIE - Scripts")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local Tab19 = Init:NewTab("TSB")
+
+local Section1 = Tab19:NewSection("The Strongest Battlegrounds - Scripts")
+
+local Button1 = Tab19:NewButton("Exolution Premium Hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ExolutionProject/Scripts/main/ExolutionPremiumHub.lua"))()
 end)
 
-local Button2 = Tab5:NewButton("Animations", function()
+local Button2 = Tab19:NewButton("Animations", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Mautiku/ehh/main/strong%20guest.lua.txt'))()
 end)
