@@ -152,112 +152,68 @@ local Button1 = Tab10:NewButton("VHS", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/fgdergewrgegr/ftap/refs/heads/main/VHS%20VF"))()
 end)
 
-local Tab11 = Init:NewTab("Shrimp Game")
+local Tab11 = Init:NewTab("Rob the Place")
 
-local Section1 = Tab11:NewSection("Shrimp Game - Script")
+local Section1 = Tab11:NewSection("Rob the Place - Scripts")
 
-local Button1 = Tab11:NewButton("Shrimp Game Script", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/vxQVYwhA"))()
-end)
-
-local Tab12 = Init:NewTab("Rob the Place")
-
-local Section1 = Tab12:NewSection("Rob the Place - Scripts")
-
-local Button1 = Tab12:NewButton("Rob the Place - Script", function()
+local Button1 = Tab11:NewButton("Rob the Place - Script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/dqvh/dqvh/main/robtheplace.lua"))()
 end)
 
-local Button2 = Tab12:NewButton("Loop Instant Proximity Prompts - UNIVERSAL", function()
+local Button2 = Tab11:NewButton("Loop Instant Proximity Prompts - UNIVERSAL", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Loop_InstantProximityPrompt/refs/heads/main/Made_by_RoKanchik_YT_Loop_Instant_PP"))()
 end)
 
-local Tab13 = Init:NewTab("Blade Ball")
+local Tab12 = Init:NewTab("Granny")
 
-local Section1 = Tab13:NewSection("Blade Ball - Script")
+local Section1 = Tab12:NewSection("Granny - Multiplayer")
 
-local Button1 = Tab13:NewButton("Plutonium - Blade Ball Script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
-end)
-
-local Tab14 = Init:NewTab("Granny")
-
-local Section1 = Tab14:NewSection("Granny - Multiplayer")
-
-local Button1 = Tab14:NewButton("QWIX HUB", function()
+local Button1 = Tab12:NewButton("QWIX HUB", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SCRIPTHUNTERS/Granny_Multiplayer/refs/heads/main/Granny_Multiplayer"))()
 end)
 
-local Section2 = Tab14:NewSection("Granny")
+local Section2 = Tab12:NewSection("Granny")
 
-local Button2 = Tab14:NewButton("Granny - Script", function()
+local Button2 = Tab12:NewButton("Granny - Script", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/N4ZB5QMe"))()
 end)
 
-local Tab15 = Init:NewTab("Natural Disaster Survival")
+local Tab13 = Init:NewTab("nico's nextbots")
 
-local Section1 = Tab15:NewSection("Natural Disaster Survival - Script")
+local Section1 = Tab13:NewSection("nico's nextbots - Script")
 
-local Button1 = Tab15:NewButton("Exolution Premium Hub", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ExolutionProject/Scripts/main/ExolutionPremiumHub.lua"))()
-end)
-
-local Tab16 = Init:NewTab("nico's nextbots")
-
-local Section1 = Tab16:NewSection("nico's nextbots - Script")
-
-local Button1 = Tab16:NewButton("Bunny Hop", function()
+local Button1 = Tab13:NewButton("Bunny Hop", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/nicos-nextbots_bunny-hop/refs/heads/main/nicos-nextbots_bunny-hop"))()
 end)
 
-local Tab17 = Init:NewTab("Throw stuff for money")
+local Tab14 = Init:NewTab("TSB")
 
-local Section1 = Tab17:NewSection("Throw stuff for money - Script")
+local Section1 = Tab14:NewSection("The Strongest Battlegrounds - Scripts")
 
-local Button1 = Tab17:NewButton("Throw stuff for money - Script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/Throwstuff"))()
-end)
-
-local Tab18 = Init:NewTab("TSB")
-
-local Section1 = Tab18:NewSection("The Strongest Battlegrounds - Scripts")
-
-local Button1 = Tab18:NewButton("Exolution Premium Hub", function()
+local Button1 = Tab14:NewButton("Exolution Premium Hub", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ExolutionProject/Scripts/main/ExolutionPremiumHub.lua"))()
 end)
 
-local Button2 = Tab18:NewButton("Animations", function()
+local Button2 = Tab14:NewButton("Animations", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Mautiku/ehh/main/strong%20guest.lua.txt'))()
 end)
 
-local Tab19 = Init:NewTab("Type Race")
+local Tab15 = Init:NewTab("Dead Rails")
 
-local Section1 = Tab19:NewSection("Type Race - Script")
+local Section1 = Tab15:NewSection("Dead Rails - Scripts")
 
-local Button1 = Tab19:NewButton("Auto Fast Typing [ 100% Accurate ]", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/RoKan-SCRIPTS/TypeRaceAutoTyping/refs/heads/main/AutoType_FAST'))()
-end)
-
-local Button2 = Tab19:NewButton("AUTO MEGA FAST TYPING [ Use an ALT Account!!! ]", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/RoKan-SCRIPTS/TypeRace_MEGA_FAST_TYPING/refs/heads/main/MEGA_FAST_TYPING'))()
-end)
-
-local Tab20 = Init:NewTab("Dead Rails")
-
-local Section1 = Tab20:NewSection("Dead Rails - Scripts")
-
-local Button1 = Tab20:NewButton("Dead Rails - KiciaHook V2", function()
+local Button1 = Tab15:NewButton("Dead Rails - KiciaHook V2", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.luau"))()
 end)
 
-local Button2 = Tab20:NewButton("Dead Rails - Gumanba", function()
+local Button2 = Tab15:NewButton("Dead Rails - Gumanba", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
 end)
 
-local Button3 = Tab20:NewButton("Dead Rails - Null Fire", function()
+local Button3 = Tab15:NewButton("Dead Rails - Null Fire", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
 end)
 
-local Button4 = Tab20:NewButton("Dead Rails - Weld Object Anywhere", function()
+local Button4 = Tab15:NewButton("Dead Rails - Weld Object Anywhere", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/hbjrev/airweld.github.io/refs/heads/main/RINGTA.lua'))()
 end)
