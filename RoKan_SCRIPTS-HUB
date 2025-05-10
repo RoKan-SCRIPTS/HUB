@@ -78,3 +78,8 @@ local Button1 = Tab4:NewButton("Evade Instant Free Revive", function()
     getgenv().farm = true -- false/true
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Evade_InstantFreeRevive/refs/heads/main/Evade_InstantFreeRevive"))()
 end)
+
+
+local Tab19 = Init:NewTab("The Strongest Battlegrounds")
+
+local Section1 = Tab19:NewSection("The Strongest Battlegrounds - Scripts")
