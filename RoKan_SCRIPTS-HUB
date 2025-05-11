@@ -225,4 +225,4 @@ end)
 local Tab15 = Init:NewTab("Other Games")
 
 local Section1 = Tab15:NewSection("Scripts for Other Games")
-local Section2 = Tab15:NewSection("———")
+local Section2 = Tab15:NewSection("")
