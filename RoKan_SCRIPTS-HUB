@@ -66,6 +66,10 @@ local Button12 = Tab2:NewButton("HUG - R15 & R6 [ Press H ]", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/JSFKGBASDJKHIOAFHDGHIUODSGBJKLFGDKSB/fe/refs/heads/main/FEHUGG"))()
 end)
 
+local Button13 = Tab2:NewButton("Zero Gravity", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/ZeroGravity/refs/heads/main/ZeroGravity"))()
+end)
+
 local Tab3 = Init:NewTab("———")
 
 local Section1 = Tab3:NewSection("It's just for decoration, skip this tab.")
