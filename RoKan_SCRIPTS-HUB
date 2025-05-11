@@ -222,7 +222,12 @@ local Button4 = Tab15:NewButton("Dead Rails - Weld Object Anywhere", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/hbjrev/airweld.github.io/refs/heads/main/RINGTA.lua'))()
 end)
 
-local Tab15 = Init:NewTab("Other Games")
+local Tab16 = Init:NewTab("Other Games")
 
-local Section1 = Tab15:NewSection("Scripts for Other Games")
-local Section2 = Tab15:NewSection("")
+local Section1 = Tab16:NewSection("Scripts for Other Games")
+local Section2 = Tab16:NewSection("")
+local Section3 = Tab16:NewSection("Forsaken")
+
+local Button4 = Tab16:NewButton("Generator Auto Farm", function()
+    loadstring(game:HttpGet("https://rscripts.net/raw/open-source-forsaken-auto-farm_1744598703848_PiToGzz6va.txt",true))()
+end)
