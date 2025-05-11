@@ -230,6 +230,7 @@ local Section3 = Tab16:NewSection("Forsaken")
 
 local Button4 = Tab16:NewButton("Generator Auto Farm", function()
     while true do
+    wait(0)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Forsaken/refs/heads/main/Generator_Auto_Farm",true))()
     end)
 end)
