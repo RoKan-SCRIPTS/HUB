@@ -233,6 +233,12 @@ local Section5 = Tab16:NewSection("Forsaken")
 
 local Button5 = Tab16:NewButton("Generator Auto Farm", function()
 	while true do
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Forsaken/refs/heads/main/Generator_Auto_Farm",true))()
+    if getgenv then 
+    getgenv().LoadTime = "5" -- wait before loading the script
+    getgenv().DiscordWebhook = "" -- Your discord webhook for notifications
+    getgenv().GeneratorTime = "2.5" -- setting this lower than 2.5 WILL kick you from the game when doing generators.
+end
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/RoKan-SCRIPTS/Forsaken/refs/heads/main/Generator_Auto_Farm'))()
 	end
 end)
