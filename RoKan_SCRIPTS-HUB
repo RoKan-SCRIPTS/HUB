@@ -232,7 +232,6 @@ local Section4 = Tab16:NewSection("")
 local Section5 = Tab16:NewSection("Forsaken")
 
 local Button5 = Tab16:NewButton("Generator Auto Farm", function()
-	while true do
     if getgenv then 
     getgenv().LoadTime = "5" -- wait before loading the script
     getgenv().DiscordWebhook = "" -- Your discord webhook for notifications
@@ -240,5 +239,4 @@ local Button5 = Tab16:NewButton("Generator Auto Farm", function()
 end
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/RoKan-SCRIPTS/Forsaken/refs/heads/main/Generator_Auto_Farm'))()
-	end
 end)
