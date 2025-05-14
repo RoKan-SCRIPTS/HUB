@@ -202,33 +202,36 @@ local Button2 = Tab14:NewButton("Animations", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Mautiku/ehh/main/strong%20guest.lua.txt'))()
 end)
 
-local Tab15 = Init:NewTab("Dead Rails")
+local Tab15 = Init:NewTab("———")
 
-local Section1 = Tab15:NewSection("Dead Rails - Scripts")
-
-local Button1 = Tab15:NewButton("Dead Rails - KiciaHook V2", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.luau"))()
-end)
-
-local Button2 = Tab15:NewButton("Dead Rails - Gumanba", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
-end)
-
-local Button3 = Tab15:NewButton("Dead Rails - Null Fire", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
-end)
-
-local Button4 = Tab15:NewButton("Dead Rails - Weld Object Anywhere", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/hbjrev/airweld.github.io/refs/heads/main/RINGTA.lua'))()
-end)
+local Section1 = Tab15:NewSection("It's just for decoration, skip this tab.")
 
 local Tab16 = Init:NewTab("Other Games")
 
 local Section1 = Tab16:NewSection("Scripts for Other Games")
 local Section2 = Tab16:NewSection("")
-local Section3 = Tab16:NewSection("Forsaken")
+local Section3 = Tab16:NewSection("Dead Rails")
 
-local Button4 = Tab16:NewButton("Generator Auto Farm", function()
+local Button1 = Tab16:NewButton("Dead Rails - KiciaHook V2", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiciahook/kiciahook/refs/heads/main/loader.luau"))()
+end)
+
+local Button2 = Tab16:NewButton("Dead Rails - Gumanba", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/DeadRails"))()
+end)
+
+local Button3 = Tab16:NewButton("Dead Rails - Null Fire", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
+end)
+
+local Button4 = Tab16:NewButton("Dead Rails - Weld Object Anywhere", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/hbjrev/airweld.github.io/refs/heads/main/RINGTA.lua'))()
+end)
+
+local Section4 = Tab16:NewSection("")
+local Section5 = Tab16:NewSection("Forsaken")
+
+local Button5 = Tab16:NewButton("Generator Auto Farm", function()
 	while true do
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Forsaken/refs/heads/main/Generator_Auto_Farm",true))()
 	end
