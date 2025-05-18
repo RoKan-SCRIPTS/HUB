@@ -240,3 +240,17 @@ end
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/RoKan-SCRIPTS/Forsaken/refs/heads/main/Generator_Auto_Farm'))()
 end)
+
+local Section6 = Tab16:NewSection("")
+local Section7 = Tab16:NewSection("Grow A Garden")
+
+local Button3 = Tab16:NewButton("Grow A Garden - Gumanba", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/GrowaGarden"))()
+end)
+
+local Section8 = Tab16:NewSection("")
+local Section9 = Tab16:NewSection("Survive and Kill the Killers in Area 51")
+
+local Button3 = Tab16:NewButton("Grow A Garden - Gumanba", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Survive_and_Kill_the_Killers_in_Area_51/refs/heads/main/rips-script"))()
+end)
