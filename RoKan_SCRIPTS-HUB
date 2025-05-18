@@ -251,6 +251,6 @@ end)
 local Section8 = Tab16:NewSection("")
 local Section9 = Tab16:NewSection("Survive and Kill the Killers in Area 51")
 
-local Button3 = Tab16:NewButton("Survive and Kill the Killers in Area 51 - rips script", function()
+local Button3 = Tab16:NewButton("Survive and Kill the Killers in Area 51", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Survive_and_Kill_the_Killers_in_Area_51/refs/heads/main/rips-script"))()
 end)
