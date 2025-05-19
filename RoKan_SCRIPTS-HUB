@@ -244,13 +244,17 @@ end)
 local Section6 = Tab16:NewSection("")
 local Section7 = Tab16:NewSection("Grow A Garden")
 
-local Button3 = Tab16:NewButton("Grow A Garden - Gumanba", function()
+local Button6 = Tab16:NewButton("Grow A Garden - Gumanba", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/GrowaGarden"))()
+end)
+
+local Button7 = Tab16:NewButton("Grow A Garden - No Lag HUB", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Grow-A-Garden/refs/heads/main/NoLagHUB"))()
 end)
 
 local Section8 = Tab16:NewSection("")
 local Section9 = Tab16:NewSection("Survive and Kill the Killers in Area 51")
 
-local Button3 = Tab16:NewButton("Survive and Kill the Killers in Area 51", function()
+local Button8 = Tab16:NewButton("Survive and Kill the Killers in Area 51", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RoKan-SCRIPTS/Survive_and_Kill_the_Killers_in_Area_51/refs/heads/main/rips-script"))()
 end)
